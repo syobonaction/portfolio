@@ -11,6 +11,9 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'paper': 'url(../public/images/paper.jpg)',
+        'marble': 'url(../public/images/marble.jpeg)',
+        'marble-tall': 'url(../public/images/marble-tall.jpeg)',
       },
     },
   },
