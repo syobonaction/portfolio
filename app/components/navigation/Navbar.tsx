@@ -62,7 +62,7 @@ const Navbar = () => {
                 />
                 <Navitem 
                     title="cv"
-                    href=""
+                    href="/cv"
                 />
             </div>
         </div>

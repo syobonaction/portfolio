@@ -15,6 +15,7 @@ export default function Portfolio() {
                 p-8
                 gap-4
                 xl:gap-16
+                m-auto
             ">
                 <Thumbnail
                     alt="grainger econnections"
