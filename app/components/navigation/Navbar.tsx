@@ -12,13 +12,12 @@ const Navbar = () => {
     }
 
     return (
-        <div className="
-            block
-            lg:flex-row
+        <div className={`
+            grid
+            grid-rows-2
             lg:p-8
             lg:w-1/6
             lg:h-screen
-            gap-3
             p-4
             w-full
             h-14
@@ -26,12 +25,14 @@ const Navbar = () => {
             bg-black
             bg-opacity-5
             backdrop-blur-sm
-        ">
+            ${isMenuOpen && 'mb-28'}
+        `}>
             <div 
                 onClick={toggleMenu}
                 className="
                     lg:hidden
                     flex
+                    row-span-1
                     cursor-pointer
                     text-slate-600
                 "
@@ -39,7 +40,14 @@ const Navbar = () => {
                 <GiHamburgerMenu />
             </div>
             <div className={`
-                ${isMenuOpen ? 'block' : 'hidden'}
+                transition
+                row-span-1
+                duration-300
+                ${isMenuOpen ? 'opacity-100' : 'opacity-0'}
+                lg:opacity-100
+                bg-opacity-50
+                mt-10
+                lg:mt-0
                 lg:flex
                 flex-col
                 gap-3

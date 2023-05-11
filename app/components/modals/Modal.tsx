@@ -1,5 +1,6 @@
 'use client'
 
+import Link from "next/link"
 import { useCallback, useEffect, useState } from "react"
 import { IoMdClose } from 'react-icons/io'
 
@@ -76,8 +77,8 @@ const Modal: React.FC<ModalProps> = ({
                             md:h-auto
                             border-0
                             rounded-md
-                            bg-white
-                            text-black
+                            bg-paper
+                            text-white
                             shadow-lg
                             relative
                             flex

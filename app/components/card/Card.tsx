@@ -15,8 +15,11 @@ const Card = () => {
     return (
         <div className="
             m-auto
-            w-screen
-            content-center
+            flex
+            lg:w-auto
+            lg:h-auto
+            w-full
+            h-full
         ">
             <div className={`
                 m-auto
@@ -26,6 +29,8 @@ const Card = () => {
                 lg:p-8
                 w-56
                 h-96
+                -translate-y-10
+                lg:-translate-y-0
                 lg:w-[348px]
                 lg:h-[548px]
                 rounded-2xl

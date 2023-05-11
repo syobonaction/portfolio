@@ -18,8 +18,8 @@ const Content = () => {
                 <h2 className="text-sm lg:text-md">Sr. Software Engineer</h2>
             </div>
             <div className="text-sm">
-                <p>312-555-5555</p>
-                <p>charles.sismondi@gmail.com</p>
+                <p>+41 78 225 54 87</p>
+                <p>charles.sismondi<span>@</span>gmail.com</p>
             </div>
         </div>
     )

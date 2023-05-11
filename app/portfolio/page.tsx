@@ -7,13 +7,14 @@ export default function Portfolio() {
             <PortfolioModal />
             <div className="
                 grid 
-                grid-rows-2
+                w-full
+                h-full
                 grid-cols-2
                 lg:grid-rows-4
                 lg:grid-cols-4
                 p-8
-                gap-8
-                lg:gap-16
+                gap-4
+                xl:gap-16
             ">
                 <Thumbnail
                     alt="grainger econnections"
@@ -23,26 +24,32 @@ export default function Portfolio() {
                 <Thumbnail
                     alt="autentik fromagerie"
                     src="/images/autentik.jpeg"
+                    modalTitle="autentik"
                 />
                 <Thumbnail
                     alt="easylight sarl"
                     src="/images/easylight.jpeg"
+                    modalTitle="easylight"
                 />
                 <Thumbnail
                     alt="grainger's main e-commerce site"
                     src="/images/grainger.jpeg"
+                    modalTitle="grainger"
                 />
                 <Thumbnail
                     alt="brighthouse virtual art gallery"
                     src="/images/brighthouse.jpeg"
+                    modalTitle="netreality"
                 />
                 <Thumbnail
                     alt="The Future Left's LA 2020 Progressive Voter's Guide"
                     src="/images/laguide.jpeg"
+                    modalTitle="flguide"
                 />
                 <Thumbnail
                     alt="Claudineco consutants website"
                     src="/images/claudineco.jpeg"
+                    modalTitle="claudineco"
                 />
             </div>
         </>

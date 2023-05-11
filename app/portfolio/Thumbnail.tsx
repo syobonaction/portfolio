@@ -40,19 +40,20 @@ const Thumbnail: React.FC<ThumbnailProps> = ({
                 row-span-1
                 rounded-md
                 cursor-pointer
-                shadow-xl
-                hover:shadow-2xl
                 transition
                 hover:-translate-x-1
                 hover:-translate-y-1
                 duration-300
                 object-contain
+                w-full
+                h-full
+                relative
         `}>
             <Image 
                 alt={alt}
                 src={src}
-                width={300}
-                height={300}
+                fill
+                style={{objectFit:"contain"}}
             />
         </div>
     )
