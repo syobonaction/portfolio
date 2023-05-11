@@ -43,6 +43,7 @@ const Navbar = () => {
                 transition
                 row-span-1
                 duration-300
+                ${isMenuOpen ? 'flex' : 'hidden'}
                 ${isMenuOpen ? 'opacity-100' : 'opacity-0'}
                 lg:opacity-100
                 bg-opacity-50

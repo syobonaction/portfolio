@@ -39,7 +39,7 @@ const PortfolioModal = () => {
                         height={300}
                     />}
                 </div>
-                <div className="p-12 opacity-70">
+                <div className="p-4 mb-8 lg:mb-0 lg:p-12 opacity-70">
                     <p>{text}</p>
                 </div>
             </div>
